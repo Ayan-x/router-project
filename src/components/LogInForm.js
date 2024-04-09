@@ -41,7 +41,7 @@ export const LogInForm = (props) => {
 
         <label className='w-full relative'>
             <p className='text-[0.875rem] text-richblack-5
-            mb-1 leading-[1.375rem]'>Password<sup className='text-pink-200'>*</sup></p>
+            mb-2 leading-[1.375rem]'>Password<sup className='text-pink-200'>*</sup></p>
             <input type={showPassword ? ("text"): ("password")}
          required value={formData.password}
         onChange={changeHandler}
