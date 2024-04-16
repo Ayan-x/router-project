@@ -65,7 +65,7 @@ export const LogInForm = (props) => {
         </Link>
         </label>
         <button className='bg-yellow-50 rounded-[8px] font-medium
-        text-richblack-800 px-[12px] py-[8px] mt-6'>
+        text-richblack-900 px-[12px] py-[8px] mt-6'>
             Sign In
         </button>
     </form>
